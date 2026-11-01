@@ -68,13 +68,13 @@ p.ex6 {display: grid;}
     color: black;
     border: 2px solid rgb(243, 235, 235);
     border-radius: 5px;
-    margin: 20px;
-    padding: 0px;
+    margin: 20px auto;
+    padding: 20px 40px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-      border-radius: 50px;
+      border-radius: 20px;
    
 }
    * {
@@ -180,9 +180,6 @@ p.ex6 {display: grid;}
      text-decoration: none;
       text-align: center;
       border-radius: 50px;
-      padding: 10px;
-      
-      
-     
+      padding: 5px;
      
     }
