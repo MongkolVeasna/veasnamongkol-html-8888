@@ -259,8 +259,9 @@ p.ex6 {display: grid;}
    .s1{
     background-color: #888888;
     box-shadow: 40px;
-    font-size: 15px;
+    font-size: 10px;
     padding: 5px;
+    color: white;
 
    }
    .f16{
@@ -289,12 +290,11 @@ p.ex6 {display: grid;}
      width: 700px;
    }
      #cubic {
-     width: 100px;
-     height: 100px;
+     width: 50px;
+     height: 50px;
      transition: width 2s, height 2s, background-color 2s, transform 2s;
      margin: 0 auto;
      margin-top: 50px;
-     margin-left: 35%;
      align-items: center;
      justify-content: center;
     
@@ -306,7 +306,6 @@ p.ex6 {display: grid;}
      transform: rotate(360deg);
      margin: 0 auto;
      align-items: center;
-     margin-left: 35%;
      margin-top: 50px;
     
    }
