@@ -338,7 +338,6 @@ p.ex6 {display: grid;}
         /*animation-delay: 2s;*/
         animation-iteration-count: infinite;
         animation-direction: alternate;
-        margin: 0 auto;
         border-radius: 50%;
 }
 @keyframes boxAnimation {
