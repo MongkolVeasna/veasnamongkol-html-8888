@@ -309,3 +309,41 @@ p.ex6 {display: grid;}
      margin-top: 50px;
     
    }
+   img#floatImage{
+  width: 50px;
+  height: 50px;
+
+  position: relative;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: 4;
+  animation-direction: alternate;  
+    margin-left: 35%;
+}
+
+@keyframes myAnimation {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+.f19{
+   width: 50px;
+        height: 50px;
+        background-color: red;
+        position: relative;
+        animation-name: boxAnimation;
+        animation-duration: 4s;
+        /*animation-delay: 2s;*/
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        margin: 0 auto;
+        border-radius: 50%;
+}
+@keyframes boxAnimation {
+        0%   {background-color: red;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;}
+      }
