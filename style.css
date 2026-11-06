@@ -1,4 +1,100 @@
-* {
+.center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+.table{
+
+        margin-left: auto;
+        margin-right: auto;
+        text-align:center
+        
+    } 
+     table {
+    border-collapse: collapse;
+    width: 400px;
+    font-family: Arial, sans-serif;
+  }
+  th, td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #497ca2;
+  }
+ 
+p {
+  background-color: rgb(44, 44, 154);
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: auto;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+ 
+}
+
+span {
+  background-color: rgb(184, 191, 193);
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+border-radius: 50px;
+text-align: left;
+}
+
+p.ex1 {display: none;}
+p.ex2 {display: inline;}
+p.ex3 {display: block; text-align: left;}
+p.ex4 {display: inline-block;}
+p.ex5 {display: flex;}
+p.ex6 {display: grid;}
+
+.city {
+    background-color: rgb(65, 131, 237);
+    color: white;
+    border: 2px solid rgb(241, 237, 237);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+  
+    }
+    .flexbox {
+    background-color: rgb(205, 206, 207);
+    color: black;
+    border: 2px solid rgb(243, 235, 235);
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      border-radius: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+   
+}
+.f17{
+  padding: 10px;
+  background-color: #888888;
+  
+}
+.f18{
+  padding: 10px 20px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  margin: 5px;
+  
+}
+   * {
       margin: 10px;
       padding: 0;
       box-sizing: border-box;
@@ -8,19 +104,19 @@
     /*height: 100px;*/
     /*max-width: 900px;*/
     width: 100%;
-    border: 4px solid black;
+    border: 4px solid rgb(211, 201, 201);
     border-radius: 8px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 18px;
+    gap: 10px;
     background: lightblue;
     padding: 30px;
     flex-wrap: wrap;
     align-items: center;
   }
   .item{
-    background: royalblue;
+    background: rgb(69, 109, 229);
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -32,43 +128,27 @@
   }
   .html{
     flex: 2;
-    background: rgb(76, 74, 170);
+    background: rgb(69, 109, 229);
     color: white;
-     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    border-radius: 30px;
   }
   .css {
     flex: 2;
-    background: rgb(152, 220, 220);
-    color: black;
-     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    border-radius: 30px;}
+    background: rgb(69, 109, 229);
+    color: white;
+  }
   .javaScript {
     flex: 2;
-    background: rgb(70, 213, 142);
-    color: midnightblue;
-     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    border-radius: 30px;
+    background: rgb(69, 109, 229);
+    color: white;
   }
-  .web{
-    background: rgb(95, 217, 74);
-    flex: 2;
-    color: rgb(253, 255, 254);
-     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    border-radius: 30px;
-  }
-   * {
-      margin: 15px;
+    * {
+      margin: 10px;
       padding: 0;
       box-sizing: border-box;
     }
   .gridbox {
     width: 100%;
-    border: 4px solid  rgb(96 139 168);
+    border: 4px solid rgb(215, 211, 211);
     border-radius: 8px;
     /*display: grid;*/
     display: inline-grid;
@@ -76,74 +156,157 @@
     /*grid-template-columns: repeat(4, 1fr);*/
     gap: 18px;
     background: lightblue;
-    padding: 30px;
+    padding: 0px;
     /*flex-wrap: wrap;*/
     /*align-items: center;*/
-     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    border-radius: 30px;
   }
-  .item{
-    background: royalblue;
+  .come{
+    background: rgb(69, 109, 229);
     color: white;
     font-size: 16px;
     font-weight: bold;
     padding: 30px 16px;
     border-radius: 8px;
     text-align: center;
-     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    border-radius: 30px;
   }
-  .html{ 
+  .Back{
     flex: 2;
-    background: lightcoral;
+    background: rgb(69, 109, 229);
     color: white;
-     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    border-radius: 30px;
   }
-  .css {
+  .Miss {
     flex: 2;
-    background: lightcyan;
-    color: black;
-     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    border-radius: 30px;
+    background: rgb(69, 109, 229);
+    color: white;
   }
-  .javaScript {
+  .You {
     flex: 2;
-    background: tomato;
-    color: midnightblue;
-     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    border-radius: 30px;
+    background: rgb(69, 109, 229);
+    color: white;
   }
-  .net{
-     flex: 2;
-    background: rgb(41, 234, 57);
-    color: midnightblue;
-     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    border-radius: 30px;
-  }
+  #box {
+      width: 300px;
+      border: 15px solid rgb(56, 77, 195);
+      padding: 50px;
+      margin: 0 auto;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .topnav {
+      background-color: #e9e6e6;
+     text-decoration: none;
+      text-align: center;
+      border-radius: 50px;
+      padding: 5px;
+     
+    }
+  nav {
+     width: 150px;
+     height: 150px;
+     background-color: rgb(0, 247, 255);
+     border: 8px solid rgb(172, 172, 173);
+     box-shadow: 5px 10px #888888;
+     margin: 0 auto;
+     text-align: center;
+     /*transform: translate(50px,100px);*/
+     /*transform: rotate(20deg);*/
+     /*transform: rotate(-20deg);*/
+     /*transform: scale(1,2);*/
+     /*transform: scaleX(2);*/
+     /*transform: scaleY(0.5);*/
+     /*transform: skewX(20deg);*/
 
-  .c{
+   }
+   #myDiv {
+        /*transform: translate(50px,100px);*/
+        /* transform: rotate(20deg); */
+        transform: rotate(-20deg);
+        /*transform: scale(1,2);*/
+        /*transform: scaleX(2);*/
+        /*transform: scaleY(0.5);*/
+        /*transform: skewX(20deg);*/
+         /*transform: skew(20deg,10deg);*/
+         margin: 0 auto;
+         text-align: center;
+      }
+      .container {
+     width: 180px;
+     height: 180px;
+     border: 1px solid lightgray;
+     margin: 30px;
+     perspective: 600px;
+     margin: 0 auto;
+   }
+   
+   .boxs {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
+     
+     /*transform: rotateX(45deg);*/
+     /*transform: rotateY(45deg);*/
+     /*transform: rotateZ(45deg);*/
+     transform: translateZ(-100px);
+   }
+   .pic {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+   .s1{
+    background-color: #888888;
+    box-shadow: 40px;
+    font-size: 15px;
+    padding: 5px;
 
-     flex: 2;
-    background: rgb(64, 219, 87);
-    color: rgb(255, 255, 255);
-     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    border-radius: 30px;
-  }
-  .python{
-     flex: 2;
-    background: rgb(71, 218, 255);
-    color: rgb(5, 5, 6);
-     text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-    border-radius: 30px;
-  }
-  
-  
+   }
+   .f16{
+    width: 100px;
+     height: 100px;
+     background-color:  #888888;
+     /*transition: width 2s;*/
+     /*transition: all 300ms ease-in-out 100ms;*/
+     transition-property: width;
+     transition-duration: 2s;
+     transition-timing-function: linear;
+     transition-delay: 1s;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     margin:0 auto;
+     border: 5px solid white;
+     text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: inherit;
+    color:black;
+    font-size: 10px;
+    }
+   .f16:hover {
+     width: 700px;
+   }
+     #cubic {
+     width: 100px;
+     height: 100px;
+     transition: width 2s, height 2s, background-color 2s, transform 2s;
+     margin: 0 auto;
+     margin-top: 50px;
+     margin-left: 35%;
+     align-items: center;
+     justify-content: center;
+    
+   }
+   #cubic:hover {
+     width: 300px;
+     height: 300px;
+    justify-content: center;
+     transform: rotate(360deg);
+     margin: 0 auto;
+     align-items: center;
+     margin-left: 35%;
+     margin-top: 50px;
+    
+   }
